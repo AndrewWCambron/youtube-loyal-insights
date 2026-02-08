@@ -1,0 +1,13 @@
+export const LOYAL_FAN_THRESHOLD = 5;
+export const CACHE_DURATION_HOURS = 24;
+export const MAX_COMMENTS_TO_FETCH = 200;
+export const COMPREHEND_BATCH_SIZE = 25;
+
+export const DDB_KEY_PREFIXES = {
+  VIDEO: 'VIDEO#',
+  CHANNEL: 'CHANNEL#',
+  USER: 'USER#',
+  ANALYSIS: 'ANALYSIS#',
+  METADATA: 'METADATA',
+  STATS: 'STATS',
+} as const;
